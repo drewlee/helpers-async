@@ -1,0 +1,7 @@
+<section>
+  <button data-test-search-trigger {{on "click" this.showSearch}}>Search</button>
+
+  {{#if this.isVisible}}
+    <input id="search-input" data-test-search-input type="search"/>
+  {{/if}}
+</section>
